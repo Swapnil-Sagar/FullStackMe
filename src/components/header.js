@@ -22,7 +22,7 @@ import {
     return (
       <div>
         <Navbar fixed="top" light expand="sm">
-          <div class="container">
+          <div className="container">
           <NavbarBrand href="/">Sagar Blog</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
