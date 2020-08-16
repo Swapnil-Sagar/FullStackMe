@@ -22,6 +22,7 @@ const IndexPage = () => (
             date={node.frontmatter.date}
             body={node.excerpt}
             fluid={node.frontmatter.images.childImageSharp.fluid}
+            tags={node.frontmatter.tags}
             />
           ))}
         </div>
@@ -53,6 +54,7 @@ query{
           date(formatString: "MMM Do YYYY")
           author
           path
+          tags
           images{
             childImageSharp{
               fluid(maxWidth: 600){
