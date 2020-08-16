@@ -2,7 +2,6 @@
 title: 'Third Post - HTML'
 date: 2020-04-12 10:00:00
 author: 'Swapnil Sagar'
-path: '/third-post'
 images: ../../images/codethumb3.jpg
 tags:
 - code

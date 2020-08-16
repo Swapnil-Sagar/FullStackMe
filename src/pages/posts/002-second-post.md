@@ -2,7 +2,6 @@
 title: 'Second Post - Getting Started'
 date: 2020-08-20 09:00:00
 author: 'Swapnil Sagar'
-path: '/second-post'
 images: ../../images/codethumb2.jpg
 tags:
 - code

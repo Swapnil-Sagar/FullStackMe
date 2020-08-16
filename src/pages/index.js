@@ -21,7 +21,7 @@ const IndexPage = () => (
             key={node.id}
             title={node.frontmatter.title}
             author={node.frontmatter.author}
-            path={node.frontmatter.path}
+            slug={node.fields.slug}
             date={node.frontmatter.date}
             body={node.excerpt}
             fluid={node.frontmatter.images.childImageSharp.fluid}
@@ -52,7 +52,6 @@ query{
           title
           date(formatString: "MMM Do YYYY")
           author
-          path
           tags
           images{
             childImageSharp{
@@ -61,6 +60,9 @@ query{
               }
             }
           }
+        }
+        fields{
+          slug
         }
         excerpt
       }
