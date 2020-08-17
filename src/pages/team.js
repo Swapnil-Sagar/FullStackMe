@@ -3,11 +3,10 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Teampage = () => (
-  <Layout>
-    <SEO title="Team" />
-    <h1>Our Team..</h1>
+const TeamPage = () => (
+  <Layout pageTitle="Our Team">
+    <SEO title="Team" keywords= {[`gatsby` , `application` , `react`]} />
   </Layout>
 )
 
-export default Teampage
+export default TeamPage
