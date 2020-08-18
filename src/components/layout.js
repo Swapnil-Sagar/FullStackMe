@@ -15,7 +15,7 @@ import '../styles/index.scss'
 import { Row, Col } from 'reactstrap'
 import Sidebar from "./Sidebar"
 
-const Layout = ({ children, pageTitle }) => {
+const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -29,17 +29,15 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-    {/* <script 
-    src="https://kit.fontawesome.com/bb016d35dd.js" 
-    crossOrigin="anonymous">
 
-    </script> */}
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container" id="content">
         <h1>{pageTitle}</h1>
           <Row>
             <Col md="8">{children}</Col>
-            <Col md ="4"><Sidebar/></Col>
+            <Col md ="4">
+            <Sidebar author={postAuthor} authorFluid={authorImageFluid} />
+            </Col>
             </Row>      
       </div>
       <Footer/>

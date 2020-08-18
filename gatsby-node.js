@@ -7,7 +7,9 @@
 // You can delete this file if you're not using it
 
 const path = require('path')
-const {slugify} = require('./src/util/utilityFunctions');
+const {slugify} = require('./src/util/utilityFunctions')
+const authors = require('./src/util/authors')
+
 
 exports.onCreateNode = ({ node, actions}) => {
     const {createNodeField } = actions
@@ -52,8 +54,10 @@ exports.createPages = ({ actions, graphql }) => {
                 component: singlePostTemplate,
                 context: {
                     //Passng slug for template to use to get posts
-                    slug: node.fields.slug
-                }
+                    slug: node.fields.slug,
+                    //Find author imageURL from authors and pass it to the single post template
+                    imageUrl: authors.find(x => x.name === node.frontmatter.author).imageUrl,
+                },
             })
         })
     })
