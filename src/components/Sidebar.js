@@ -26,11 +26,11 @@ const Sidebar = ({ author, authorFluid }) => (
                 </CardText>
                 <div className="author-social-links text-center">
                     <ul>
-                        <li><a href={author.facebook} target="_blank" rel="noopener noreferrer" className="facebook"><i className="fa fa-facebook-f fa-lg"></i></a></li>
-                        <li><a href={author.twitter} target="_blank" rel="noopener noreferrer" className="twitter"><i className="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href={author.instagram} target="_blank" rel="noopener noreferrer" className="instagram"><i className="fa fa-instagram fa-lg"></i></a></li>
-                        <li><a href={author.github} target="_blank" rel="noopener noreferrer" className="github"><i className="fa fa-github fa-lg"></i></a></li>
-                        <li><a href={author.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin"><i className="fa fa-linkedin fa-lg"></i></a></li>
+                        <li><a href={author.facebook} target="_blank" rel="noopener noreferrer" className="facebook"><i className="fa fa-facebook-f fa-lg"/></a></li>
+                        <li><a href={author.twitter} target="_blank" rel="noopener noreferrer" className="twitter"><i className="fa fa-twitter fa-lg"/></a></li>
+                        <li><a href={author.instagram} target="_blank" rel="noopener noreferrer" className="instagram"><i className="fa fa-instagram fa-lg"/></a></li>
+                        <li><a href={author.github} target="_blank" rel="noopener noreferrer" className="github"><i className="fa fa-github fa-lg"/></a></li>
+                        <li><a href={author.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin"><i className="fa fa-linkedin fa-lg"/></a></li>
                     </ul>
                 </div>
                 </CardBody>
@@ -70,7 +70,7 @@ const Sidebar = ({ author, authorFluid }) => (
                 <CardTitle className="text-center text-uppercase mb-3">
                     Recent Posts
                 </CardTitle>
-                <StaticQuery query={sidebarQuery} render={(data) => (
+                <StaticQuery query={sidebarQuery} render={ data => (
                     <div>
                         {data.allMarkdownRemark.edges.map(({node})=> (
                             <Card key={node.id}>
