@@ -5,7 +5,6 @@ author: 'Swapnil Sagar'
 images: ../../images/introbg.jpg
 tags:
     - INTRO
-    - GET_STARTED
 ---
 
 Welcome to Full Stack Me, I hope you enjoy this website as much as I did creating it,

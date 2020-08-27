@@ -41,8 +41,8 @@ const IndexPage = () => {
 const indexQuery = graphql`
 query{
   allMarkdownRemark(
-    sort: { fields: [frontmatter___date], order: DESC }
-    limit: 2
+    sort: { fields: [frontmatter___date], order: ASC }
+    limit: 3
     ) {
     totalCount
     edges{

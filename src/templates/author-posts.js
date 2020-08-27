@@ -24,7 +24,7 @@ const authorPosts = ({ data, pageContext }) => {
           date={node.frontmatter.date}
           body={node.excerpt}
           tags={node.frontmatter.tags}
-          fluid={node.frontmatter.image.childImageSharp.fluid}
+          fluid={node.frontmatter.images.childImageSharp.fluid}
         />
       ))}
     </Layout>
@@ -34,7 +34,7 @@ const authorPosts = ({ data, pageContext }) => {
 export const authorQuery = graphql`
   query($authorName: String!, $imageUrl: String!) {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: ASC }
       filter: { frontmatter: { author: { eq: $authorName } } }
     ) {
       totalCount
