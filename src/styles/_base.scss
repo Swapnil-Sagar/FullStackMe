@@ -2,7 +2,7 @@
   margin-top: 60px;
 }
 body {
-  background-color: $light-gray;
+  background-color: $gray;
   font-family: $site-font;
 }
 a {
@@ -16,6 +16,18 @@ a {
 h1 {
   margin-bottom: 20px;
   text-align: center;
+  color: rgb(240, 240, 240);
+  font-family: 'Ultra', sans-serif;   
+  font-size: 36px;
+  font-weight: bold;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px rgb(0, 0, 0), 0 3px #777;
+}
+h3 {
+  text-align: center;
+  color: rgb(240, 240, 240);
+  text-shadow: 2px 2px 8px #000000;
 }
 .navbar {
   background-color: white;
@@ -34,4 +46,16 @@ h1 {
 ul {
   list-style: none;
   padding: 0;
+}
+
+.Tag-button {
+ color: $yellow;
+ padding: 10px;
+ margin-Bottom:18px;
+}
+
+.badge-tagPage{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: large;
 }

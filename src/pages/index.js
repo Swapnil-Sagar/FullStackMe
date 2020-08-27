@@ -9,9 +9,11 @@ const IndexPage = () => {
   const postPerPage = 2
   let numberOfPages
   return(
-  <Layout pageTitle = "Full Stack Me">
+  <Layout pageTitle = "Full Stack Me" 
+  pageSubtitle = "Just an Encyclopedia for Web Devs" >
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <StaticQuery query={indexQuery} render={data => {
+      <StaticQuery 
+      query={indexQuery} render={data => {
         numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postPerPage)
       return(
         <div>
@@ -38,7 +40,8 @@ const IndexPage = () => {
 
 const indexQuery = graphql`
 query{
-  allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }
+  allMarkdownRemark(
+    sort: { fields: [frontmatter___date], order: DESC }
     limit: 2
     ) {
     totalCount

@@ -1,23 +1,17 @@
 ---
-title: 'First Post - Introduction'
-date: 2020-08-01 07:00:00
-author: 'Aman Sagar'
-images: ../../images/codethumb.jpg
+title: 'First Post - Introductory Welcome'
+date: 2020-08-27 07:00:00
+author: 'Swapnil Sagar'
+images: ../../images/introbg.jpg
 tags:
-    - code
-    - design
+    - INTRO
+    - GET_STARTED
 ---
 
-Welcome to Sagar Blog, I hope you enjoy this website as much as I did creating it.
-PNIL\Desktop\sagar_blog\src\templates\single-post.js
-* C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\gatsby\dist\utils\babel-loader.js??ref--4-0!C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\eslint-loader\index.js??ref--11-0success Re-building development bundle - 0.853s
-success onPreExtractQueries - 0.018s
-success extract queries from components - 0.135s
-success write out requires - 0.003s
-warn There are multiple modules with names that only differ in casing.
-This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
-Use equal casing. Compare these module identifiers:
-* C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\gatsby\dist\utils\babel-loader.js??ref--4-0!C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\eslint-loader\index.js??ref--11-0!C:\Users\SWAPNIL\Desktop\sagar_blog\src\components\Layout.js
-    Used by 2 module(s), i. e.
-    C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\gatsby\dist\utils\babel-loader.js??ref--4-0!C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\eslint-loader\index.js??ref--11-0!C:\Users\SWAPNIL\Desktop\sagar_blog\src\templates\single-post.js
-* C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\gatsby\dist\utils\babel-loader.js??ref--4-0!C:\Users\SWAPNIL\Desktop\sagar_blog\node_modules\eslint-loader\index.js??ref--11-0success Re-building development bundle - 0.729s
+Welcome to Full Stack Me, I hope you enjoy this website as much as I did creating it,
+
+So as a Web Developer ameture I was very much confused about how to start the journey like should I go for front-end first or get my back strong in the backend. There is a stream of different languages, frameworks, libraries, GUI tools.... to choose from. Some have drown in the medevial era like COFFEE SCRIPT and some are floating on the top and probably will stay there for quite a while like REACT. 
+
+So which language should you opt for? 
+
+This website will help you in that. Here you will find information about most of the industry prevailing Web Development languages from beginner to advance so I can be a guide to help choose which language to go for. So go through all the posts and select which suits the best for you.
