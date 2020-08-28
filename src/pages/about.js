@@ -3,15 +3,17 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const AboutPage = () => (
-  <Layout pageTitle="About us">
+  <Layout pageTitle="About Me">
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam
-      pariatur magnam nulla quis nobis rerum vitae in delectus modi
-      exercitationem amet quasi, distinctio illo blanditiis, adipisci, odio unde
-      minima numquam architecto! Odit sequi facere sit odio maiores possimus
-      ratione!
-    </p>
+    <div>
+    <p >
+      Hi, I am Swapnil Sagar.<br></br>
+
+      I am a Final year Computer Science and Engneering Student whose passion is to learn and code new stuffs.
+      I run on Caffeine and I conquer bugs.<br></br>
+
+      My obejctive is to pursue my career in an organization with performance-oriented environment for achievement of personal advancement. Seeking for an entry-level position to begin my career in a high-level professional environment.
+    </p></div>
   </Layout>
 )
 
