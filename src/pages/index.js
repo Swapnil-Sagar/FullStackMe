@@ -6,7 +6,7 @@ import Post from "../components/Post"
 import PaginationLinks from '../components/PaginationLinks'
 
 const IndexPage = () => {
-  const postPerPage = 2
+  const postPerPage = 3
   let numberOfPages
   return(
   <Layout pageTitle = "Full Stack Me" 
