@@ -1,7 +1,7 @@
 ---
 title: 'Third Post - CSS'
 date: 2020-08-28 04:00:00
-author: 'Swapnil Sagar'
+author: 'Viraj Nimbalkar'
 images: ../../images/CSS.jpg
 tags:
     - CSS

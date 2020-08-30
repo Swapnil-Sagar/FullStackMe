@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import authors from "../util/authors"
 import { Card, CardText, CardBody, CardTitle, Button, Row} from 'reactstrap'
-import aman from '../images/aman.jpg'
+import viraj from '../images/virajimg.jpg'
 import swapnil from '../images/swapnil.jpg'
 import { slugify } from '../util/utilityFunctions'
 
@@ -12,7 +12,7 @@ const TeamPage = () => (
     <SEO title="Team" keywords= {[`gatsby` , `application` , `react`]} />
     <Row className="mb-4">
       <div className="col-md-3">
-        <img src={aman} style={{ maxWidth: '100%' }} alt="Aman profile"/>
+      <img src={swapnil} style={ { maxWidth: '100%' }} alt="Swapnil profile"/>
       </div>
       <div className="col-md-8">
         <Card style={ { minHeight: '100%' }}>
@@ -26,7 +26,7 @@ const TeamPage = () => (
     </Row>
     <Row className="mb-4">
       <div className="col-md-3">
-        <img src={swapnil} style={ { maxWidth: '100%' }} alt="Swapnil profile"/>
+        <img src={viraj} style={ { maxWidth: '100%' }} alt="Viraj profile"/>
       </div>
       <div className="col-md-8">
         <Card style={ { minHeight: '100%' }}>
