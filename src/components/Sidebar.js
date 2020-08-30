@@ -103,7 +103,7 @@ const Sidebar = ({ author, authorFluid }) => (
           Advertisement
         </CardTitle>
         <img
-          src="https://via.placeholder.com/320x200"
+          src="https://via.placeholder.com/320x200?text=Please+Share"
           alt="Advert"
           style={{ width: '100%' }}
         />

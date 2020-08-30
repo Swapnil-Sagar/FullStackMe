@@ -1,14 +1,14 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import swapnil from '../images/swapnil.jpg'
+import aboutswapnil from '../images/about.jpg'
 
 const AboutPage = () => (
   <Layout pageTitle="About Me">
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
     <div>
     <div className="col-md-8">
-        <img src={swapnil} style={{ maxWidth: '60%' }} alt="Swapnil profile"/>
+        <img src={aboutswapnil} style={{ maxWidth: '70%' }} alt="Swapnil profile"/>
       </div>
       <div className="col-md-8">
     <p style={{ color: '#FFFF'}} >
