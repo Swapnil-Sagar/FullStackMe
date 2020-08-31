@@ -9,7 +9,7 @@ const IndexPage = () => {
   const postPerPage = 3
   let numberOfPages
   return(
-  <Layout pageTitle = "Full Stack Me" 
+  <Layout pageTitle = "Full Stack Way" 
   pageSubtitle = "An Encyclopedia for Web Devs" >
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <StaticQuery 
