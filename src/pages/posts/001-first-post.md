@@ -7,7 +7,7 @@ tags:
     - INTRO
 ---
 
-Welcome to Full Stack Me, I hope you enjoy this website as much as I did creating it,
+####Welcome to Full Stack Me, I hope you enjoy this website as much as I did creating it,
 
 So as a Web Developer ameture I was very much confused about how to start the journey like should I go for front-end first or get my back strong in the backend. There is a stream of different languages, frameworks, libraries, GUI tools.... to choose from. Some have drown in the medevial era like COFFEE SCRIPT and some are floating on the top and probably will stay there for quite a while like REACT. 
 

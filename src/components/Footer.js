@@ -9,7 +9,7 @@ const Footer = () => (
       <ul className="social-links-list">
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/Sagar.Swapnil946/"
             target="_blank"
             rel="noopener noreferrer"
             className="facebook"
@@ -19,7 +19,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://twitter.com/sagar946"
             target="_blank"
             rel="noopener noreferrer"
             className="twitter"
@@ -29,7 +29,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.instagram.com/_swapnilsagar_/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
             className="instagram"
@@ -39,22 +39,32 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://github.com/Swapnil-Sagar"
             target="_blank"
             rel="noopener noreferrer"
-            className="google"
+            className="github"
           >
-            <i className="fab fa-google fa-2x" />
+            <i className="fab fa-github fa-2x" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.linkedin.com/in/swapnilsagar09/"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin"
           >
             <i className="fab fa-linkedin fa-2x" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:swapnilsagar09@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="email"
+          >
+            <i className="fas fa-envelope-open-text fa-2x" />
           </a>
         </li>
         <p><br>

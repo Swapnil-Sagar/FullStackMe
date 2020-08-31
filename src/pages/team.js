@@ -20,7 +20,7 @@ const TeamPage = () => (
           <CardBody>
           <CardTitle>{authors[0].name}</CardTitle>
           <CardText>{authors[0].bio}</CardText>
-          <Button className="text-uppercase" color="primary" href={`/author/${slugify(authors[0].name)}`}>View Posts</Button>
+          <Button className="text-uppercase" color="dark" href={`/author/${slugify(authors[0].name)}`}>View Posts</Button>
           </CardBody>
         </Card>
       </div>
@@ -34,7 +34,7 @@ const TeamPage = () => (
           <CardBody>
           <CardTitle>{authors[1].name}</CardTitle>
           <CardText>{authors[1].bio}</CardText>
-          <Button className="text-uppercase" color="primary" href={`/author/${slugify(authors[1].name)}`}>View Posts</Button>
+          <Button className="text-uppercase" color="warning" href={`/author/${slugify(authors[1].name)}`}>View Posts</Button>
           </CardBody>
         </Card>
       </div>
@@ -48,7 +48,7 @@ const TeamPage = () => (
           <CardBody>
           <CardTitle>{authors[2].name}</CardTitle>
           <CardText>{authors[2].bio}</CardText>
-          <Button className="text-uppercase" color="primary" href={`/author/${slugify(authors[2].name)}`}>View Posts</Button>
+          <Button className="text-uppercase" color="secondary" href={`/author/${slugify(authors[2].name)}`}>View Posts</Button>
           </CardBody>
         </Card>
       </div>

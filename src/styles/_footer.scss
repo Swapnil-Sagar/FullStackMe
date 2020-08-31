@@ -24,11 +24,14 @@
           &.twitter:hover {
             color: rgb(56, 161, 243);
           }
-          &.google:hover {
-            color: rgb(221, 75, 57);
+          &.email:hover {
+            color: rgb(185,66,55);
           }
           &.linkedin:hover {
             color: rgb(0, 119, 181);
+          }
+          &.github:hover {
+            color: rgb(36,41,46);
           }
         }
       }

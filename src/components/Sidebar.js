@@ -88,7 +88,7 @@ const Sidebar = ({ author, authorFluid }) => (
             <Input
               type="email"
               name="email"
-              placeholder="Your email address.."
+              placeholder="Will be available soon..."
             />
           </FormGroup>
           <button className="btn btn-outline-success text-uppercase">
