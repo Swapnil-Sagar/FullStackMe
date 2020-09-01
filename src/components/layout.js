@@ -40,8 +40,8 @@ const Layout = ({ authorImageFluid, children, pageTitle, pageSubtitle, postAutho
         <h1>{pageTitle}</h1>
         <h3 className="text-center mb-5">{pageSubtitle}</h3>
           <Row>
-            <Col md="8">{children}</Col>
-            <Col md ="4">
+            <Col md="9">{children}</Col>
+            <Col md ="3">
             <Sidebar author={postAuthor} authorFluid={authorImageFluid} />
             </Col>
             </Row>      

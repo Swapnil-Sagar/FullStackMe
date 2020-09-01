@@ -30,7 +30,7 @@ const TeamPage = () => (
         <img src={viraj} style={ { maxWidth: '100%' }} alt="Viraj profile"/>
       </div>
       <div className="col-md-8">
-        <Card style={ { minHeight: '90%' }}>
+        <Card style={ { minHeight: '100%' }}>
           <CardBody>
           <CardTitle>{authors[1].name}</CardTitle>
           <CardText>{authors[1].bio}</CardText>
@@ -44,7 +44,7 @@ const TeamPage = () => (
       <img src={viral} style={ { maxWidth: '100%' }} alt="Viral profile"/>
       </div>
       <div className="col-md-8">
-        <Card style={ { minHeight: '60%' }}>
+        <Card style={ { minHeight: '100%' }}>
           <CardBody>
           <CardTitle>{authors[2].name}</CardTitle>
           <CardText>{authors[2].bio}</CardText>
