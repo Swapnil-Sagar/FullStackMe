@@ -1,5 +1,5 @@
 ---
-title: 'Seventh Post - NodeJS'
+title: 'Seventh Post - Typescript'
 date: 2020-08-30 22:00:00
 author: 'Viral Sangani'
 images: ../../images/typescript.jpeg
