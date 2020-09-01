@@ -2,7 +2,7 @@ const authors = [
     {
         name: 'Swapnil Sagar',
         imageUrl: 'swapnil.jpg',
-        bio: 'Swapnil is an amature Web Developer persuing engineering and also holds a knowledge in  cyber security field',
+        bio: 'An amature Web Developer persuing engineering who also holds a knowledge in Cyber Security field',
         facebook: 'https://www.facebook.com/Sagar.Swapnil946/',
         twitter: 'https://twitter.com/sagar946',
         instagram: 'https://www.instagram.com/_swapnilsagar_/?hl=en',
