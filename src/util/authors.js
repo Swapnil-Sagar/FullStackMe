@@ -12,7 +12,7 @@ const authors = [
     {
         name: 'Viraj Nimbalkar',
         imageUrl: 'virajimg.jpg',
-        bio: 'A web designer / developer based in Pune, Maharashtra, India. Also, he is a Network and Security student and looking forward to improve his skills in ethical hacking and other cybersecurity domains.',
+        bio: 'I am a web designer / developer based in Pune, Maharashtra, India. Also, I am a Network and Security student who is looking forward to improve his skills in ethical hacking and other cybersecurity domains.',
         facebook: 'https://www.facebook.com/vvn.viraj1299',
         twitter: 'https://twitter.com/Viraaaaaj1299',
         instagram: 'https://instagram.com/viraaaaaj.1299?igshid=dccx1iixu7w9',
