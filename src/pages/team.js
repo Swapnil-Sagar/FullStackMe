@@ -5,7 +5,7 @@ import authors from "../util/authors"
 import { Card, CardText, CardBody, CardTitle, Button, Row} from 'reactstrap'
 import viraj from '../images/virajimg.jpg'
 import swapnil from '../images/swapnil.jpg'
-import viral from '../images/viral.jpg'
+import viral from '../images/viralimg.jpg'
 import { slugify } from '../util/utilityFunctions'
 
 const TeamPage = () => (
