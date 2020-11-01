@@ -1,10 +1,8 @@
-  
-import React from 'react'
+import React from "react"
 
 const Footer = () => (
   <div className="site-footer">
-    <h4 className="text-center">Full Stack</h4>
-    <p className="text-center">Follow me</p>
+    <h4 className="footerh4 text-center">Full Stack</h4>
     <div className="footer-social-links">
       <ul className="social-links-list">
         <li>
@@ -67,13 +65,16 @@ const Footer = () => (
             <i className="fas fa-envelope-open-text fa-2x" />
           </a>
         </li>
-        <p><br>
-                </br>Made with <span role="img">❤️</span> by Swapnil Sagar in GatsbyJs</p>
+        <p>
+          <br></br>Made with{" "}
+          <span role="img" aria-labelledby="red-heart">
+            ❤️
+          </span>{" "}
+          by Swapnil Sagar in GatsbyJs
+        </p>
       </ul>
     </div>
   </div>
 )
 
 export default Footer
-
-
