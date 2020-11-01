@@ -18,7 +18,7 @@ tags:
 
 As a CS student and also a web development enthusiast I can say that there are two parts to this answer one pertains to what you have to know and the second what you should know. Both were asked and I see those as quite different. The former being the minimum to get by and the later being what sets you up for future success.
 
-First of all, it's important to define "Web Developer" to understand the have to know. If we are talking about a front-end engineer, I see the following common languages to be required:
+First of all, it's important to define "Web Developer" to understand what have to know. If we are talking about a front-end engineer, I see the following common languages to be required:
 
 1. HTML
 2. CSS
