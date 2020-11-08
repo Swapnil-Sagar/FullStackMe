@@ -92,3 +92,17 @@ ul {
   font-weight: bold;
   font-size: large;
 }
+
+code {
+  font-size: 1rem !important;
+  color: rgb(68, 75, 75) !important;
+  background-color: #e6e6e6;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: rgb(44, 44, 44);
+  opacity: 0.1;
+  margin-top: 10px;
+}

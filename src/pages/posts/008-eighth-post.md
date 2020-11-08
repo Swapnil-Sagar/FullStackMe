@@ -1,5 +1,5 @@
 ---
-title: "Sixth Post - Data Structure && Web Development"
+title: "Eighth Post - Data Structure && Web Development"
 date: 2020-09-9 21:00:00
 author: "Swapnil Sagar"
 images: ../../images/dsa+web.png
