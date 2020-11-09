@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => (
   <div className="site-footer">
-    <h4 className="footerh4 text-center">Full Stack</h4>
+    <h4 className="footerh4 text-center">Full Stack Way</h4>
     <div className="footer-social-links">
       <ul className="social-links-list">
         <li>
