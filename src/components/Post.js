@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
   Badge,
   Card,
@@ -6,10 +6,10 @@ import {
   CardText,
   CardSubtitle,
   CardBody,
-} from 'reactstrap'
-import { Link } from 'gatsby'
-import Img from 'gatsby-image'
-import { slugify } from '../util/utilityFunctions'
+} from "reactstrap"
+import { Link } from "gatsby"
+import Img from "gatsby-image"
+import { slugify } from "../util/utilityFunctions"
 
 const Post = ({ title, author, slug, date, body, fluid, tags }) => (
   <Card>
@@ -21,7 +21,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => (
         <Link to={`/${slug}/`}>{title}</Link>
       </CardTitle>
       <CardSubtitle>
-        <span className="text-info">{date}</span> by{' '}
+        <span className="text-info">{date}</span> by{" "}
         <span className="text-info">{author}</span>
       </CardSubtitle>
       <CardText>{body}</CardText>
@@ -37,7 +37,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => (
         ))}
       </ul>
       <Link
-        to={slug}
+        to={`/${slug}/`}
         className="btn btn-outline-secondary float-right text-uppercase"
       >
         Read more
