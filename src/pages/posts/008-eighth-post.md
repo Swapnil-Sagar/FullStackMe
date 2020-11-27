@@ -18,11 +18,19 @@ tags:
 
 As a CS student and also a web development enthusiast I can say that there are two parts to this answer one pertains to what you have to know and the second what you should know. Both were asked and I see those as quite different. The former being the minimum to get by and the later being what sets you up for future success.
 
+---
+
 First of all, it's important to define "Web Developer" to understand what have to know. If we are talking about a front-end engineer, I see the following common languages to be required:
 
 1. HTML
 2. CSS
 3. JavaScript (including a couple frameworks)
+
+#
+
+---
+
+#
 
 ####Where does Data structure comes in the role for web development?
 
@@ -46,6 +54,12 @@ For any web development
 
 - HTTP/Network communication - this is really important for debugging issues (things like Chrome's inspect element). Know how each tab works and what it's for.
 
+#
+
+---
+
+#
+
 ####But....What you should know?
 
 Apart from our beloved array what other Data structurs should be known :
@@ -61,9 +75,21 @@ Apart from our beloved array what other Data structurs should be known :
 - And **Stacks** will probably make it easier for you to understand how to handle the states in your single page app. It will also help you grasp recursion.
 - #
 
+#
+
+---
+
+#
+
 ![](https://i.ibb.co/X8pstj3/progdesk.png)
 
 #
+
+---
+
+#
+
+So this can be a never ending debate but personally I think it totally depends on the developers identity. If you want to work in a tech giants like **FAANG** then you should probably learn DSA which is basic requirement to get into these companies as interview screening process. But if you want to be free lancer developer then It wont matter that much.
 
 #####_If you start working on the front-end of web applications or web sites as a front-end engineer, you will inevitably run into issues or interactions with backend systems. In these cases it's very advantageous to be able to know a thing or two about the backend systems, how parts (or all!) of it works and the data structures and algorithmic techniques used._
 

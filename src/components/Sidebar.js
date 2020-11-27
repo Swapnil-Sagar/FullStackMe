@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
   Card,
   CardTitle,
@@ -7,9 +7,9 @@ import {
   Form,
   FormGroup,
   Input,
-} from 'reactstrap'
-import { graphql, StaticQuery, Link } from 'gatsby'
-import Img from 'gatsby-image'
+} from "reactstrap"
+import { graphql, StaticQuery, Link } from "gatsby"
+import Img from "gatsby-image"
 
 const Sidebar = ({ author, authorFluid }) => (
   <div>
@@ -147,7 +147,7 @@ const sidebarQuery = graphql`
   query sidebarQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 3
+      limit: 4
     ) {
       edges {
         node {
