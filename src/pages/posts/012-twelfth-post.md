@@ -1,13 +1,13 @@
 ---
-title: "Twelfth Post - FrontEnd Roadmap"
+title: "Twelfth Post - Why React"
 date: 2021-03-03 12:30:00
 author: "Swapnil Sagar"
 images: ../../images/ReactTitle.png
 tags:
-  - frontend
+  - Frontend
   - WEB
   - Info
-  - BASICS
+  - INTERMEDIATE
 ---
 
 #
